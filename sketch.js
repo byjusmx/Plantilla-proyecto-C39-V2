@@ -136,14 +136,14 @@ function draw() {
   textSize(20);
   stroke(3);
   fill("black")
-  text("Score: "+ score, camera.position.x,50);
+  text("Puntuación: "+ score, camera.position.x,50);
   
   if(score >= 5){
     kangaroo.visible = false;
     textSize(30);
     stroke(3);
     fill("black");
-    text("Congragulations!! You win the game!! ", 70,200);
+    text("¡Felicidades! ¡Ganaste el juego! ", 70,200);
     gameState = WIN;
   }
 }
